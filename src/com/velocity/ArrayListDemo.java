@@ -12,7 +12,9 @@ public class ArrayListDemo {
 		al.add(20);
 		al.add(30);
 		
-		System.out.println(al);
+		for(Integer num :al) {
+			System.out.println(num);
+		}
 
 	}
 
